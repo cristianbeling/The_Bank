@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #88e770;
+    border-radius: 100px;
+}
+
+.icon{
+    display: flex;
+    margin: 24px 45px;
+}
+
+.nav{
+    display: flex;
+}
+
+a{
+    margin-right: 20px;
+}
+
+.nav li a{
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.nav li a:hover{
+    background-color: #4aa733;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.banco img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.banco {
+    display: flex;
+    height: 100vh;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.banco .titulo {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #88e770;
+    border-radius: 100px;
+    
+}
